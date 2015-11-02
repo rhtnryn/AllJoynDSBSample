@@ -138,10 +138,10 @@ namespace AdapterLib
 
         public uint Initialize()
         {
-            AdapterDevice devicePin5 = new AdapterDevice("Pin 5", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 5");
-            AdapterDevice devicePin6 = new AdapterDevice("Pin 6", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 6");
-            AdapterDevice devicePin12 = new AdapterDevice("Pin 12", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 12");
-            AdapterDevice devicePin16 = new AdapterDevice("Pin 16", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 16");
+            AdapterDevice devicePin5 = new AdapterDevice("Switch 1", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 5");
+            AdapterDevice devicePin6 = new AdapterDevice("Switch 2", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 6");
+            AdapterDevice devicePin12 = new AdapterDevice("Switch 3", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 12");
+            AdapterDevice devicePin16 = new AdapterDevice("Switch 4", "Rohit Narayan", "Testing Model", "0.0.1", "000000001", "Controls Pin 16");
 
             // Define GPIO Pin-5 as device property. Device contains properties
             AdapterProperty gpioPin_Property5 = new AdapterProperty(PIN_NAME5, PIN_INTERFACE_HINT5);
